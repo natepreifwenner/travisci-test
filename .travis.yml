@@ -1,6 +1,8 @@
 language: node_js
 node_js:
-  - "12"
-
+  - "node"
+branches:
+  only:
+    - main
 script:
-  - npm run lint
+  - "yarn run lint"
